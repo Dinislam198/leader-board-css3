@@ -1,3 +1,138 @@
-*{
-    background-color: green;
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* Common Style/ Utility */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #a89de6a6;
+}
+
+/* Top Players Styles */
+main {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 32px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player img {
+    height: 56px;
+    width: 56px;
+}
+
+.player-name {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+}
+
+/* Top Blog Styles */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3px;
+}
+
+.course {
+    Width: 252.42px;
+    Height: 269.79px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(209, 19, 19, 0.05));
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog .thumbnail img {
+    width: 224px;
+    height: 127px;
+    margin-top: 21px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #562EFF;
+    font-weight: 500;
+
+}
+
+.blog-author a {
+    text-decoration: none;
+}
+
+.course-duration {
+    Width: 94.83px;
+    Height: 29.38px;
+    background: #dfa0a9;
+    border-radius: 14px;
+
+}
+.fa-clock, span{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
 }
